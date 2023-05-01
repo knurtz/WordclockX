@@ -141,6 +141,21 @@
         (name "R1" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
+      (pin unspecified line (at -12.7 -13.97 90) (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "S" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "2088RGB-5_0_1"
+      (polyline
+        (pts
+          (xy -12.7 -11.43)
+          (xy -12.7 -10.16)
+          (xy -11.43 -10.16)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
     )
     (symbol "2088RGB-5_1_1"
       (rectangle (start -11.43 -11.43) (end 11.43 11.43)
