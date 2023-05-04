@@ -10103,7 +10103,7 @@
     (property "Value" "MCP7940N-xST" (at 82.55 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 80.01 96.52 0)
+    (property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" (at 80.01 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" (at 80.01 96.52 0)
