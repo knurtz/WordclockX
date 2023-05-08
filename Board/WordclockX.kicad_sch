@@ -6677,7 +6677,7 @@
   (symbol (lib_id "Memory_Flash:W25Q32JVSS") (at 58.42 256.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 023bbbd5-2a6f-484e-9bf6-4abf59343df1)
-    (property "Reference" "U1" (at 50.8 267.97 0)
+    (property "Reference" "U2" (at 50.8 267.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q16JLSNIG" (at 60.96 267.97 0)
@@ -6703,7 +6703,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -6738,7 +6738,7 @@
   (symbol (lib_id "power:GND") (at 292.1 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05096b1f-a269-4fd2-bbf3-01365cace932)
-    (property "Reference" "#PWR035" (at 292.1 130.81 0)
+    (property "Reference" "#PWR039" (at 292.1 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 292.1 128.5955 0)
@@ -6754,7 +6754,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -6763,7 +6763,7 @@
   (symbol (lib_id "power:GND") (at 190.5 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0565e424-7d70-46a3-941c-32444f30440e)
-    (property "Reference" "#PWR011" (at 190.5 233.68 0)
+    (property "Reference" "#PWR026" (at 190.5 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 231.4655 0)
@@ -6779,7 +6779,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -6788,7 +6788,7 @@
   (symbol (lib_id "power:GND") (at 347.98 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09a4aaa2-886f-4885-bd53-5a44bcf169ee)
-    (property "Reference" "#PWR037" (at 347.98 90.17 0)
+    (property "Reference" "#PWR041" (at 347.98 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 347.98 87.9555 0)
@@ -6804,7 +6804,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -6839,7 +6839,7 @@
   (symbol (lib_id "power:GND") (at 71.12 252.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12ee7875-2c31-4f3c-b548-fb0fc4634e3c)
-    (property "Reference" "#PWR09" (at 71.12 259.08 0)
+    (property "Reference" "#PWR012" (at 71.12 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 256.8655 0)
@@ -6855,7 +6855,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -6864,7 +6864,7 @@
   (symbol (lib_id "power:GND") (at 347.98 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 171d7840-4187-4a7c-9f54-162f7927c3fb)
-    (property "Reference" "#PWR027" (at 347.98 189.23 0)
+    (property "Reference" "#PWR042" (at 347.98 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 347.98 187.0155 0)
@@ -6880,7 +6880,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -6889,7 +6889,7 @@
   (symbol (lib_id "power:VCC") (at 58.42 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 180ee5e4-4a5b-4d2d-a2a8-591a9a87a6a9)
-    (property "Reference" "#PWR05" (at 58.42 240.03 0)
+    (property "Reference" "#PWR07" (at 58.42 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 58.42 232.7181 0)
@@ -6905,7 +6905,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -6986,7 +6986,7 @@
   (symbol (lib_id "power:VCC") (at 190.5 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b8ed428-0a00-44d5-b09d-2b6d8fa4aba9)
-    (property "Reference" "#PWR010" (at 190.5 200.66 0)
+    (property "Reference" "#PWR025" (at 190.5 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 190.5 193.3481 0)
@@ -7002,7 +7002,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -7011,7 +7011,7 @@
   (symbol (lib_id "power:+1V1") (at 86.36 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cff7257-d8e3-48eb-8325-60db75c6d598)
-    (property "Reference" "#PWR039" (at 86.36 127 0)
+    (property "Reference" "#PWR013" (at 86.36 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V1" (at 86.36 119.38 0)
@@ -7027,7 +7027,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -7155,7 +7155,7 @@
   (symbol (lib_id "Device:R") (at 80.01 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25ee2aad-19c2-4c00-97e7-75c46c1763f5)
-    (property "Reference" "R7" (at 81.788 36.1863 0)
+    (property "Reference" "R6" (at 81.788 36.1863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 81.788 38.1073 0)
@@ -7172,7 +7172,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -7341,7 +7341,7 @@
   (symbol (lib_id "power:GND") (at 270.51 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b884fc4-96a9-454e-bf31-1f403a88527f)
-    (property "Reference" "#PWR031" (at 270.51 257.81 0)
+    (property "Reference" "#PWR035" (at 270.51 257.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 270.637 255.8542 0)
@@ -7357,7 +7357,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "TinySound"
@@ -7401,7 +7401,7 @@
   (symbol (lib_id "power:VCC") (at 91.44 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f0a8e30-c519-4a41-ad63-53b30b5463a8)
-    (property "Reference" "#PWR040" (at 91.44 127 0)
+    (property "Reference" "#PWR015" (at 91.44 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 91.44 119.6881 0)
@@ -7417,7 +7417,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -7460,7 +7460,7 @@
   (symbol (lib_id "power:+5V") (at 210.82 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ff83ed5-0f30-4b4b-8355-cc1d9ef25e21)
-    (property "Reference" "#PWR025" (at 210.82 29.21 0)
+    (property "Reference" "#PWR029" (at 210.82 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 210.82 21.8981 0)
@@ -7476,7 +7476,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -7510,7 +7510,7 @@
   (symbol (lib_id "Device:C") (at 285.75 191.77 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30c08992-6bc8-4b91-beee-fe80ea9681f3)
-    (property "Reference" "C15" (at 282.829 191.1263 0)
+    (property "Reference" "C24" (at 282.829 191.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 282.829 193.0473 0)
@@ -7527,7 +7527,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C15") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -7536,7 +7536,7 @@
   (symbol (lib_id "power:GND") (at 50.8 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 352b5a6b-68e0-4fab-8f1e-811bca129c47)
-    (property "Reference" "#PWR018" (at 50.8 109.22 0)
+    (property "Reference" "#PWR06" (at 50.8 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 107.0055 0)
@@ -7552,7 +7552,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -7561,7 +7561,7 @@
   (symbol (lib_id "power:GND") (at 162.56 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37628bf2-5d5c-4a00-9d57-5d4b6f62ae0b)
-    (property "Reference" "#PWR042" (at 162.56 156.21 0)
+    (property "Reference" "#PWR022" (at 162.56 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 153.9955 0)
@@ -7577,7 +7577,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -7586,7 +7586,7 @@
   (symbol (lib_id "power:+5V") (at 205.74 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e523c9c-386e-4848-85cd-813842c409ed)
-    (property "Reference" "#PWR023" (at 205.74 64.77 0)
+    (property "Reference" "#PWR027" (at 205.74 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 205.74 57.4581 0)
@@ -7602,7 +7602,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -7668,7 +7668,7 @@
   (symbol (lib_id "power:VCC") (at 284.48 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40bc1cc6-0296-44ed-a587-442b9de088b3)
-    (property "Reference" "#PWR034" (at 284.48 156.21 0)
+    (property "Reference" "#PWR038" (at 284.48 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 284.48 148.8981 0)
@@ -7684,7 +7684,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -7730,7 +7730,7 @@
   (symbol (lib_id "power:GND") (at 240.03 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42e2ae30-241e-4dec-9372-e459011372c2)
-    (property "Reference" "#PWR017" (at 240.03 222.25 0)
+    (property "Reference" "#PWR034" (at 240.03 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 220.0355 0)
@@ -7746,7 +7746,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -7755,7 +7755,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 162.56 261.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4421e012-a4bc-445c-941d-d9fefadea330)
-    (property "Reference" "TP6" (at 163.957 257.6743 0)
+    (property "Reference" "TP7" (at 163.957 257.6743 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 163.957 259.5953 0)
@@ -7771,7 +7771,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "TP6") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -7780,7 +7780,7 @@
   (symbol (lib_id "Device:R") (at 119.38 262.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48421d97-1b7b-40bb-bb91-c6d8ee0ea0f2)
-    (property "Reference" "R9" (at 119.38 260.35 90)
+    (property "Reference" "R8" (at 119.38 260.35 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 120.65 265.43 90)
@@ -7797,7 +7797,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "R9") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -7831,7 +7831,7 @@
   (symbol (lib_id "power:VCC") (at 284.48 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ae5e1da-2ecc-437d-a823-12ca3f56f501)
-    (property "Reference" "#PWR033" (at 284.48 57.15 0)
+    (property "Reference" "#PWR037" (at 284.48 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 284.48 49.8381 0)
@@ -7847,7 +7847,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -7856,7 +7856,7 @@
   (symbol (lib_id "Device:C") (at 40.64 200.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bcbb45e-05b3-4112-9d15-e5451dab5d37)
-    (property "Reference" "C2" (at 37.719 200.0163 0)
+    (property "Reference" "C3" (at 37.719 200.0163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27p" (at 37.719 201.9373 0)
@@ -7873,7 +7873,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -7882,7 +7882,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 111.76 261.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f2e3db3-8667-4484-abc9-33fc41a7f8aa)
-    (property "Reference" "TP4" (at 110.363 257.6743 0)
+    (property "Reference" "TP5" (at 110.363 257.6743 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 110.363 259.5953 0)
@@ -7898,7 +7898,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "TP4") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -7929,50 +7929,10 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Pack08") (at 340.36 168.91 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 538b4438-daab-4828-9f7b-0255a0f7532a)
-    (property "Reference" "RN4" (at 340.36 153.67 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "39R" (at 340.36 156.21 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 340.36 180.975 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 340.36 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 06113db3-ef00-4149-bde1-0e2b10902a7f))
-    (pin "10" (uuid 53483dc0-7dea-4089-b024-e95aa720cb1b))
-    (pin "11" (uuid cdc23279-08be-409a-919e-7b04bf0b4bab))
-    (pin "12" (uuid 22033a1e-51f5-493e-8b56-6f63ee863350))
-    (pin "13" (uuid 5cd9fd20-c8ee-4168-be5f-0885d6ce3b53))
-    (pin "14" (uuid 7289ac3b-b794-4c4e-826c-e09d18d79ae0))
-    (pin "15" (uuid b4638d9c-767a-48b3-a6a5-d558ccddb4d1))
-    (pin "16" (uuid 5c237cfd-d913-4c20-8b76-a8718e6f0f3d))
-    (pin "2" (uuid 7dbf69b0-c997-4f73-91af-c02cdd47a750))
-    (pin "3" (uuid 7c4d22e6-d187-4224-ad6c-f0d9d25c63a1))
-    (pin "4" (uuid 22439b9d-0871-4031-acf6-13f4c083b43b))
-    (pin "5" (uuid f95e36e2-50d8-452f-a4b1-8bc53a3262b7))
-    (pin "6" (uuid e91a7534-e3ed-4846-aa55-f28747b12f3d))
-    (pin "7" (uuid 158c9f55-a46c-4713-8d11-0fad65fcc603))
-    (pin "8" (uuid 02c8c27c-bbb4-4ba7-95c2-534d6063e81b))
-    (pin "9" (uuid e859827b-4a78-48c8-b4a4-6ba571a0b17e))
-    (instances
-      (project "WordclockX"
-        (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "RN4") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 196.85 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53a18884-0223-422c-8a2a-f0f5cb6e4384)
-    (property "Reference" "C22" (at 193.929 173.3463 0)
+    (property "Reference" "C12" (at 193.929 173.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 193.929 175.2673 0)
@@ -7989,7 +7949,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C22") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -7998,7 +7958,7 @@
   (symbol (lib_id "power:GND") (at 40.64 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5444a594-4d0c-41af-ba0d-8ff2d89611e5)
-    (property "Reference" "#PWR03" (at 40.64 213.36 0)
+    (property "Reference" "#PWR04" (at 40.64 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 211.1455 0)
@@ -8014,7 +7974,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -8023,7 +7983,7 @@
   (symbol (lib_id "Device:C") (at 285.75 92.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56b2a755-9180-434e-a342-de1c3c00e2f0)
-    (property "Reference" "C14" (at 282.829 92.0663 0)
+    (property "Reference" "C23" (at 282.829 92.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 282.829 93.9873 0)
@@ -8040,7 +8000,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C14") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -8049,7 +8009,7 @@
   (symbol (lib_id "Device:C") (at 71.12 247.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56ed08c6-e248-4a1d-9d2b-c67eab8b23ed)
-    (property "Reference" "C3" (at 74.041 247.0063 0)
+    (property "Reference" "C5" (at 74.041 247.0063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 74.041 248.9273 0)
@@ -8066,7 +8026,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -8104,7 +8064,7 @@
   (symbol (lib_id "Device:R") (at 72.39 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 587a2f96-7d99-493a-b236-de666040b9a0)
-    (property "Reference" "R6" (at 74.168 36.1863 0)
+    (property "Reference" "R5" (at 74.168 36.1863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 74.168 38.1073 0)
@@ -8121,7 +8081,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -8130,7 +8090,7 @@
   (symbol (lib_id "Device:R") (at 162.56 208.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e80a49d-a894-4e93-9372-1f8d8bfcecc8)
-    (property "Reference" "R4" (at 160.782 207.6363 0)
+    (property "Reference" "R11" (at 160.782 207.6363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 160.782 209.5573 0)
@@ -8147,7 +8107,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "R4") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -8156,7 +8116,7 @@
   (symbol (lib_id "Device:C") (at 275.59 92.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5effbcb2-b782-489e-8657-00dfb33ac9df)
-    (property "Reference" "C12" (at 272.669 92.0663 0)
+    (property "Reference" "C21" (at 272.669 92.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 272.669 93.9873 0)
@@ -8173,7 +8133,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C12") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -8182,7 +8142,7 @@
   (symbol (lib_id "power:GND") (at 124.46 264.16 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fbd6d92-6329-42ae-9e48-efc22be5b6a4)
-    (property "Reference" "#PWR016" (at 124.46 270.51 0)
+    (property "Reference" "#PWR017" (at 124.46 270.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 268.2955 0)
@@ -8198,7 +8158,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -8237,7 +8197,7 @@
   (symbol (lib_id "Device:C") (at 162.56 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 639045de-8853-493b-bba1-386a927afb18)
-    (property "Reference" "C19" (at 159.639 173.3463 0)
+    (property "Reference" "C7" (at 159.639 173.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 159.639 175.2673 0)
@@ -8254,7 +8214,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C19") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -8343,7 +8303,7 @@
   (symbol (lib_id "power:GND") (at 62.23 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 675ecd71-ebc7-4958-bdaa-0cb1dc16da0b)
-    (property "Reference" "#PWR08" (at 62.23 222.25 0)
+    (property "Reference" "#PWR010" (at 62.23 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 220.0355 0)
@@ -8359,7 +8319,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -8427,7 +8387,7 @@
   (symbol (lib_id "power:VCC") (at 44.45 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fae7d57-4886-42bc-a1a0-ac3fac3b718d)
-    (property "Reference" "#PWR04" (at 44.45 132.08 0)
+    (property "Reference" "#PWR05" (at 44.45 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 44.45 124.7681 0)
@@ -8443,7 +8403,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -8452,7 +8412,7 @@
   (symbol (lib_id "power:GND") (at 88.9 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74b299de-7f82-4080-8868-05f0e7339f17)
-    (property "Reference" "#PWR012" (at 88.9 229.87 0)
+    (property "Reference" "#PWR014" (at 88.9 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 227.6555 0)
@@ -8468,7 +8428,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -8477,7 +8437,7 @@
   (symbol (lib_id "power:GND") (at 58.42 270.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75717bc5-c99d-416b-8c8e-4ba9ea342390)
-    (property "Reference" "#PWR06" (at 58.42 276.86 0)
+    (property "Reference" "#PWR08" (at 58.42 276.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 274.6455 0)
@@ -8493,7 +8453,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -8502,7 +8462,7 @@
   (symbol (lib_id "Device:C") (at 212.09 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 762d778e-87b0-4699-b111-aab931dfcae0)
-    (property "Reference" "C4" (at 215.011 222.8763 0)
+    (property "Reference" "C14" (at 215.011 222.8763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3p" (at 215.011 224.7973 0)
@@ -8519,7 +8479,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C4") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -8528,16 +8488,19 @@
   (symbol (lib_id "Device:R_Pack08") (at 381 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76a0c55b-a2b7-414d-bca9-de3854856857)
-    (property "Reference" "RN3" (at 381 54.61 90)
+    (property "Reference" "RN5" (at 381 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22R" (at 381 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 381 81.915 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602" (at 381 81.915 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 381 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser" "667-EXB-2HV220JV" (at 381 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9cd95dbd-3d31-4352-a275-ddde9fc88a66))
@@ -8559,7 +8522,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "RN3") (unit 1)
+          (reference "RN5") (unit 1)
         )
       )
     )
@@ -8597,16 +8560,19 @@
   (symbol (lib_id "Device:R_Pack08") (at 361.95 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ca12dfe-f8c6-4d4d-a093-7e86102d5398)
-    (property "Reference" "RN2" (at 372.11 88.265 0)
+    (property "Reference" "RN3" (at 372.11 88.265 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47R" (at 372.11 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 374.015 88.9 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602" (at 374.015 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 361.95 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser" "667-EXB-2HV470JV " (at 361.95 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1af4e57f-b314-4977-98be-f094372cf34e))
@@ -8628,7 +8594,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "RN2") (unit 1)
+          (reference "RN3") (unit 1)
         )
       )
     )
@@ -8709,7 +8675,7 @@
   (symbol (lib_id "Device:C") (at 173.99 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7dfb92d9-5971-44ad-82dd-3c48d077f06c)
-    (property "Reference" "C20" (at 171.069 173.3463 0)
+    (property "Reference" "C9" (at 171.069 173.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 171.069 175.2673 0)
@@ -8726,7 +8692,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C20") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -8844,7 +8810,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 162.56 246.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80472f72-a08c-46b5-8f6c-23dbdc8db600)
-    (property "Reference" "TP5" (at 163.957 242.4343 0)
+    (property "Reference" "TP6" (at 163.957 242.4343 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 163.957 244.3553 0)
@@ -8860,7 +8826,50 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "TP5") (unit 1)
+          (reference "TP6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Pack08") (at 340.36 168.91 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 80837482-b244-4ac4-9b19-7f66b395c155)
+    (property "Reference" "RN2" (at 340.36 153.67 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "39R" (at 340.36 156.21 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602" (at 340.36 180.975 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 340.36 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser" "667-EXB-2HV390JV" (at 340.36 168.91 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b6b31381-cfe2-449b-b02f-3204df010a60))
+    (pin "10" (uuid c02eab02-869c-4a77-9ac4-6fe5b64bcaa7))
+    (pin "11" (uuid fa851031-4d3b-422e-9a87-3c3dcb017463))
+    (pin "12" (uuid 65529658-08a5-40c1-8320-9bf17c8a8048))
+    (pin "13" (uuid 05996eab-2954-42e0-8906-5a398730f005))
+    (pin "14" (uuid fc2fd7eb-1a0a-489b-81a4-a601bb697dfb))
+    (pin "15" (uuid edd184c1-1807-471e-82cc-9a46208be93e))
+    (pin "16" (uuid a7d8bfff-279d-4cd3-be52-3836563e440c))
+    (pin "2" (uuid 8711bdaa-357b-46ae-877e-029209d5438c))
+    (pin "3" (uuid 05834bae-bd8b-4e57-a2f0-43258b185ff7))
+    (pin "4" (uuid 11d6c275-6603-4951-8b5b-cb530f6058bb))
+    (pin "5" (uuid 3037b217-6f18-4f99-9787-40e66661906a))
+    (pin "6" (uuid 3315150e-c0e3-4504-b2ba-0ed3cd5cb254))
+    (pin "7" (uuid 023dfdb3-bdff-421a-b760-4807313fe7e0))
+    (pin "8" (uuid adf71e25-6bdc-4d34-9f06-c759894771d0))
+    (pin "9" (uuid e7802782-414a-4d80-a1e1-d58a12800f24))
+    (instances
+      (project "WordclockX"
+        (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
+          (reference "RN2") (unit 1)
         )
       )
     )
@@ -8869,7 +8878,7 @@
   (symbol (lib_id "Device:C") (at 185.42 143.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82b2e617-882a-4d8d-a31f-59f90082ed34)
-    (property "Reference" "C18" (at 182.499 142.8663 0)
+    (property "Reference" "C10" (at 182.499 142.8663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 182.499 144.7873 0)
@@ -8886,7 +8895,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C18") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -8932,7 +8941,7 @@
   (symbol (lib_id "Device:C") (at 185.42 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b404a06-e572-4b37-b976-7125cc3692ed)
-    (property "Reference" "C21" (at 182.499 173.3463 0)
+    (property "Reference" "C11" (at 182.499 173.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 182.499 175.2673 0)
@@ -8949,7 +8958,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C21") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -8958,7 +8967,7 @@
   (symbol (lib_id "Device:C") (at 219.71 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c182832-5c21-4c50-a091-55b30617bb9f)
-    (property "Reference" "C24" (at 216.789 173.3463 0)
+    (property "Reference" "C16" (at 216.789 173.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 216.789 175.2673 0)
@@ -8975,7 +8984,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C24") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -8984,7 +8993,7 @@
   (symbol (lib_id "power:GND") (at 149.86 248.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90cbb63e-7835-4141-a2de-5f085b72ecde)
-    (property "Reference" "#PWR021" (at 149.86 255.27 0)
+    (property "Reference" "#PWR019" (at 149.86 255.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 253.0555 0)
@@ -9000,7 +9009,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -9071,7 +9080,7 @@
   (symbol (lib_id "power:GND") (at 214.63 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9712396e-ca71-4f2c-a71a-1914ad5badf3)
-    (property "Reference" "#PWR026" (at 214.63 81.28 0)
+    (property "Reference" "#PWR031" (at 214.63 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 79.0655 0)
@@ -9087,7 +9096,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -9096,7 +9105,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 82.55 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97346af5-b174-4f40-ad89-60be75dd98ca)
-    (property "Reference" "TP7" (at 83.947 58.2843 0)
+    (property "Reference" "TP3" (at 83.947 58.2843 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 83.947 60.2053 0)
@@ -9112,7 +9121,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "TP7") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -9146,7 +9155,7 @@
   (symbol (lib_id "Device:C") (at 173.99 143.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d1b281a-22cb-47a5-8dbc-7aab0b68f95b)
-    (property "Reference" "C17" (at 171.069 142.8663 0)
+    (property "Reference" "C8" (at 171.069 142.8663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 171.069 144.7873 0)
@@ -9163,7 +9172,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C17") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -9172,7 +9181,7 @@
   (symbol (lib_id "Regulator_Linear:MIC5504-3.3YM5") (at 50.8 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9df3592a-c243-420e-9038-7fb2c35c21ad)
-    (property "Reference" "U4" (at 50.8 80.8101 0)
+    (property "Reference" "U1" (at 50.8 80.8101 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MIC5504-3.3YM5" (at 50.8 82.7311 0)
@@ -9195,7 +9204,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -9204,7 +9213,7 @@
   (symbol (lib_id "power:GND") (at 149.86 264.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a567f21d-0fae-45d2-b3d4-97c3ac4c06e9)
-    (property "Reference" "#PWR022" (at 149.86 270.51 0)
+    (property "Reference" "#PWR020" (at 149.86 270.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 268.2955 0)
@@ -9220,47 +9229,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Pack08") (at 361.95 187.96 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a95dfa94-aef3-4c84-bc39-62a6debd6a7c)
-    (property "Reference" "RN5" (at 372.11 187.325 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47R" (at 372.11 189.865 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 374.015 187.96 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 361.95 187.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e074ca6a-904c-45c0-81ae-360f8971c298))
-    (pin "10" (uuid f3c7c26e-bb06-41a5-bdce-083a2b851c59))
-    (pin "11" (uuid 1001c30b-81d9-4ab2-8bda-fa37ba8b1ed4))
-    (pin "12" (uuid 92bfc77a-e964-4aa7-aafb-d04e86599f30))
-    (pin "13" (uuid c0801963-60a7-4a38-8376-6c30beebacd7))
-    (pin "14" (uuid ad3e117a-3a42-4b08-930d-d1ff120e8838))
-    (pin "15" (uuid 18111d32-8ad9-4817-a45a-22cbcff461bf))
-    (pin "16" (uuid e7eaea13-8634-4816-86f6-16186fbb7743))
-    (pin "2" (uuid 8b9e70dd-1768-4bbf-841e-42e817a2dc3a))
-    (pin "3" (uuid db5ca2bb-7edf-44e8-ad3d-8b7241b4d9a6))
-    (pin "4" (uuid fac64361-252b-4d8c-a14e-30983ad54556))
-    (pin "5" (uuid 769b2085-0573-49ba-8644-3460cbc1b52f))
-    (pin "6" (uuid 79ff7673-12af-4156-8f4b-70125e83c241))
-    (pin "7" (uuid 4b27c293-9f72-40a7-a1d0-10dc1223225f))
-    (pin "8" (uuid faf34c17-1d1d-4b86-853c-202c60f9db26))
-    (pin "9" (uuid a9210a4d-5817-494f-9621-39c1c3b08e5a))
-    (instances
-      (project "WordclockX"
-        (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "RN5") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -9269,7 +9238,7 @@
   (symbol (lib_id "Device:C") (at 208.28 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a969145b-fed6-4d50-8be9-16608ae41a4a)
-    (property "Reference" "C23" (at 205.359 173.3463 0)
+    (property "Reference" "C13" (at 205.359 173.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 205.359 175.2673 0)
@@ -9286,7 +9255,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C23") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -9295,7 +9264,7 @@
   (symbol (lib_id "Device:C") (at 231.14 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa4df5c6-0cbc-4bc1-b311-d78a2ff73787)
-    (property "Reference" "C25" (at 228.219 173.3463 0)
+    (property "Reference" "C18" (at 228.219 173.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 228.219 175.2673 0)
@@ -9312,7 +9281,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C25") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -9348,7 +9317,7 @@
   (symbol (lib_id "Device:C") (at 223.52 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ada2ee58-7889-4daf-940b-a1141ca128b2)
-    (property "Reference" "C5" (at 226.441 222.8763 0)
+    (property "Reference" "C17" (at 226.441 222.8763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3p" (at 226.441 224.7973 0)
@@ -9365,7 +9334,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C5") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -9374,7 +9343,7 @@
   (symbol (lib_id "power:GND") (at 292.1 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b485885e-df4b-4383-9a88-47302ee0a299)
-    (property "Reference" "#PWR036" (at 292.1 229.87 0)
+    (property "Reference" "#PWR040" (at 292.1 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 292.1 227.6555 0)
@@ -9390,7 +9359,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -9399,7 +9368,7 @@
   (symbol (lib_id "Device:C") (at 34.29 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4944120-49e7-405f-9b7a-4411e95ec1a8)
-    (property "Reference" "C6" (at 31.369 90.7963 0)
+    (property "Reference" "C2" (at 31.369 90.7963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 31.369 92.7173 0)
@@ -9416,7 +9385,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C6") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -9451,7 +9420,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 111.76 246.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5c88ba4-8971-4155-b0dd-b534c40513d9)
-    (property "Reference" "TP3" (at 110.363 242.4343 0)
+    (property "Reference" "TP4" (at 110.363 242.4343 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 110.363 244.3553 0)
@@ -9467,7 +9436,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "TP3") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -9476,7 +9445,7 @@
   (symbol (lib_id "Timer_RTC:MCP7940N-xST") (at 190.5 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b70b15c4-8879-4f00-9622-c2285cbfb0d2)
-    (property "Reference" "U2" (at 182.88 222.25 0)
+    (property "Reference" "U4" (at 182.88 222.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP7940N-xST" (at 193.04 222.25 0)
@@ -9502,7 +9471,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "U2") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -9511,7 +9480,7 @@
   (symbol (lib_id "Device:R") (at 154.94 262.89 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9ac2c91-4e7e-46dd-8629-ca0c101d6243)
-    (property "Reference" "R11" (at 154.94 260.35 90)
+    (property "Reference" "R10" (at 154.94 260.35 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 153.67 265.43 90)
@@ -9528,7 +9497,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "R11") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -9565,7 +9534,7 @@
   (symbol (lib_id "power:+5V") (at 60.96 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd06ae1a-b105-44ec-b5ba-bb1f23c39054)
-    (property "Reference" "#PWR07" (at 60.96 24.13 0)
+    (property "Reference" "#PWR09" (at 60.96 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 60.96 16.8181 0)
@@ -9581,7 +9550,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -9615,7 +9584,7 @@
   (symbol (lib_id "power:GND") (at 227.33 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be444de1-d0b4-42a5-ae20-f78394f7a7cd)
-    (property "Reference" "#PWR029" (at 227.33 257.81 0)
+    (property "Reference" "#PWR032" (at 227.33 257.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 227.457 255.8542 0)
@@ -9631,7 +9600,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "TinySound"
@@ -9671,7 +9640,7 @@
   (symbol (lib_id "power:VCC") (at 63.5 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c61c80af-cc77-4c76-9d02-76620a39d453)
-    (property "Reference" "#PWR020" (at 63.5 86.36 0)
+    (property "Reference" "#PWR011" (at 63.5 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 63.5 79.0481 0)
@@ -9687,7 +9656,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -9696,7 +9665,7 @@
   (symbol (lib_id "power:GND") (at 162.56 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c63439eb-983b-44a0-a4e2-ca522384f75d)
-    (property "Reference" "#PWR044" (at 162.56 186.69 0)
+    (property "Reference" "#PWR024" (at 162.56 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 184.4755 0)
@@ -9712,7 +9681,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -9751,7 +9720,7 @@
   (symbol (lib_id "power:GND") (at 227.33 262.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc400edb-4844-4409-8a30-02b5553b6457)
-    (property "Reference" "#PWR030" (at 227.33 269.24 0)
+    (property "Reference" "#PWR033" (at 227.33 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 227.457 267.2842 0)
@@ -9767,7 +9736,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "TinySound"
@@ -9778,50 +9747,10 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Pack08") (at 381 168.91 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ce26b6f8-9936-48d5-ac38-02cf3ceb2a82)
-    (property "Reference" "RN6" (at 381 153.67 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22R" (at 381 156.21 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 381 180.975 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 381 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 020f22d7-9bda-4c12-a7a7-8e15a664b668))
-    (pin "10" (uuid efb4ac97-b8ec-42b0-8ffa-7f4a03370292))
-    (pin "11" (uuid 65ec1197-16a4-4b59-a553-974e916f4c8f))
-    (pin "12" (uuid 344e66e3-4216-4c67-bbe0-04e8e0307d75))
-    (pin "13" (uuid e49d1710-56e5-4b7d-8a37-1dff3b12eb6a))
-    (pin "14" (uuid a39af07c-a06f-4498-bbfd-1706f75cead2))
-    (pin "15" (uuid 2eadb0f2-bd1d-4b7e-8d05-bcc9ba317e82))
-    (pin "16" (uuid 7de26919-de05-4c28-a737-fad7f58ebb59))
-    (pin "2" (uuid b30b269d-ca53-4bcb-8db9-5318599e1a81))
-    (pin "3" (uuid 8a4152b6-1e45-4c85-bc37-226cbc0568fd))
-    (pin "4" (uuid 22b5e028-301f-45ee-97d3-0b94e6841161))
-    (pin "5" (uuid 15a58021-94f5-46a3-988a-15dd7c3eb4ce))
-    (pin "6" (uuid 4052942b-bd56-40ac-982f-530c3d211e17))
-    (pin "7" (uuid 35b0e56f-04b5-4868-b31b-c5541476490e))
-    (pin "8" (uuid 72c001c6-db22-4268-8e2c-4593f8e8ebf4))
-    (pin "9" (uuid d3429cf4-8c9f-44db-b1fd-0d03a61b6417))
-    (instances
-      (project "WordclockX"
-        (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "RN6") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 63.5 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce4d459d-4074-4c29-98a3-ba2a39598d6f)
-    (property "Reference" "C8" (at 66.421 90.7963 0)
+    (property "Reference" "C4" (at 66.421 90.7963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 66.421 92.7173 0)
@@ -9838,7 +9767,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C8") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -9847,7 +9776,7 @@
   (symbol (lib_id "Device:C") (at 240.03 205.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cea406e4-1c9e-4475-a0c5-465fa5d76e96)
-    (property "Reference" "C7" (at 237.109 205.0963 0)
+    (property "Reference" "C19" (at 237.109 205.0963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 237.109 207.0173 0)
@@ -9864,7 +9793,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C7") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -9873,7 +9802,7 @@
   (symbol (lib_id "Device:R") (at 119.38 247.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0e8d739-d98e-4d34-8bf4-0ca29409777c)
-    (property "Reference" "R8" (at 119.38 245.11 90)
+    (property "Reference" "R7" (at 119.38 245.11 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 120.65 250.19 90)
@@ -9890,7 +9819,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "R8") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -9899,7 +9828,7 @@
   (symbol (lib_id "Device:C") (at 275.59 191.77 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4582492-610a-4263-8b7f-8c196b7a8f01)
-    (property "Reference" "C13" (at 272.669 191.1263 0)
+    (property "Reference" "C22" (at 272.669 191.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 272.669 193.0473 0)
@@ -9916,7 +9845,50 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C13") (unit 1)
+          (reference "C22") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Pack08") (at 361.95 187.96 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d4da2cba-6dc9-4a9d-bea6-70371db3358c)
+    (property "Reference" "RN4" (at 372.11 187.325 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47R" (at 372.11 189.865 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602" (at 374.015 187.96 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 361.95 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser" "667-EXB-2HV470JV " (at 361.95 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 877ada42-e032-48ed-9ea8-b0323e169743))
+    (pin "10" (uuid 0ec78939-d5b6-4820-8f21-d8f19e32ebe8))
+    (pin "11" (uuid 401af448-f8c2-4aba-b68f-7a84f5c7896f))
+    (pin "12" (uuid 3903769f-dfbd-4db4-88d4-7b79bfa6c47a))
+    (pin "13" (uuid 11b06fe1-73b0-4cae-b1cb-fdec5463d7d0))
+    (pin "14" (uuid f614da1d-f76b-4535-ae64-bf68c7d593e6))
+    (pin "15" (uuid 20baa458-96b5-48a2-a393-0c4f64e1b466))
+    (pin "16" (uuid e08bdab5-eaaa-4715-80d1-466816cb6e88))
+    (pin "2" (uuid 1261b247-a883-45c6-a433-25e85d579915))
+    (pin "3" (uuid fef5716f-1fc4-467b-81fc-68f50a341a6e))
+    (pin "4" (uuid 634e3c81-6c14-4f2c-9c5a-a99872238ca2))
+    (pin "5" (uuid c5a9169a-ca38-4f50-9973-6205683193d0))
+    (pin "6" (uuid b3870b0b-1582-4d78-9d2f-b50e66dc362e))
+    (pin "7" (uuid 05690d76-d2ed-40de-ab9b-e013c5dbc85d))
+    (pin "8" (uuid ae7403e8-8a9c-4e7c-94c7-4210e668f5b6))
+    (pin "9" (uuid 990c0aff-e731-449a-80c5-4c8f9600396c))
+    (instances
+      (project "WordclockX"
+        (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
+          (reference "RN4") (unit 1)
         )
       )
     )
@@ -9925,7 +9897,7 @@
   (symbol (lib_id "Device:R") (at 154.94 247.65 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7647e4d-4d2f-45b5-bad1-d9b7c92f646e)
-    (property "Reference" "R10" (at 154.94 245.11 90)
+    (property "Reference" "R9" (at 154.94 245.11 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 153.67 250.19 90)
@@ -9942,7 +9914,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -9951,7 +9923,7 @@
   (symbol (lib_id "power:GND") (at 270.51 262.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d84e163b-4e59-4a41-b669-94be85d031b8)
-    (property "Reference" "#PWR032" (at 270.51 269.24 0)
+    (property "Reference" "#PWR036" (at 270.51 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 270.637 267.2842 0)
@@ -9967,7 +9939,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "TinySound"
@@ -9981,7 +9953,7 @@
   (symbol (lib_id "power:VCC") (at 162.56 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d984a7ae-0a73-4a02-b85f-48082863389b)
-    (property "Reference" "#PWR043" (at 162.56 171.45 0)
+    (property "Reference" "#PWR023" (at 162.56 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 162.56 164.1381 0)
@@ -9997,7 +9969,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -10047,7 +10019,7 @@
   (symbol (lib_id "Device:C") (at 242.57 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e066779a-bfef-4969-af04-d4bdfbfb43c7)
-    (property "Reference" "C26" (at 239.649 173.3463 0)
+    (property "Reference" "C20" (at 239.649 173.3463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 239.649 175.2673 0)
@@ -10064,7 +10036,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C26") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -10073,7 +10045,7 @@
   (symbol (lib_id "power:GND") (at 205.74 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6cd3890-d101-4023-bb0b-680af5736864)
-    (property "Reference" "#PWR024" (at 205.74 119.38 0)
+    (property "Reference" "#PWR028" (at 205.74 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.74 117.1655 0)
@@ -10089,7 +10061,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -10098,7 +10070,7 @@
   (symbol (lib_id "power:GND") (at 212.09 229.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e779f9b0-582d-40ed-b1fb-58e86165bec4)
-    (property "Reference" "#PWR013" (at 212.09 236.22 0)
+    (property "Reference" "#PWR030" (at 212.09 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 234.0055 0)
@@ -10114,7 +10086,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -10123,7 +10095,7 @@
   (symbol (lib_id "power:GND") (at 124.46 248.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb830e15-3e7d-4745-bd5d-4f37d485e17a)
-    (property "Reference" "#PWR015" (at 124.46 255.27 0)
+    (property "Reference" "#PWR016" (at 124.46 255.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 253.0555 0)
@@ -10139,7 +10111,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -10148,7 +10120,7 @@
   (symbol (lib_id "Device:C") (at 214.63 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eee62d51-412b-402b-87f9-5326c8d3444d)
-    (property "Reference" "C10" (at 211.709 69.2063 0)
+    (property "Reference" "C15" (at 211.709 69.2063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 211.709 71.1273 0)
@@ -10165,7 +10137,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C10") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -10180,10 +10152,13 @@
     (property "Value" "39R" (at 340.36 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 340.36 81.915 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602" (at 340.36 81.915 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 340.36 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser" "667-EXB-2HV390JV" (at 340.36 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5483efb5-b11e-4fbb-9509-f2951388e404))
@@ -10322,7 +10297,7 @@
   (symbol (lib_id "Device:C") (at 162.56 143.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f83ed6e2-0162-4050-a4a6-f921722f72c9)
-    (property "Reference" "C16" (at 159.639 142.8663 0)
+    (property "Reference" "C6" (at 159.639 142.8663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 159.639 144.7873 0)
@@ -10339,7 +10314,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "C16") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -10348,7 +10323,7 @@
   (symbol (lib_id "power:GND") (at 137.16 271.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f89f601f-b66c-490d-ae53-336af56b548e)
-    (property "Reference" "#PWR019" (at 137.16 278.13 0)
+    (property "Reference" "#PWR018" (at 137.16 278.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 275.9155 0)
@@ -10364,7 +10339,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -10400,7 +10375,7 @@
   (symbol (lib_id "power:+1V1") (at 162.56 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb2cb351-c917-4c03-99e0-8748f5b7b0fd)
-    (property "Reference" "#PWR041" (at 162.56 140.97 0)
+    (property "Reference" "#PWR021" (at 162.56 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V1" (at 162.56 133.35 0)
@@ -10416,7 +10391,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -10455,7 +10430,7 @@
   (symbol (lib_id "Device:R") (at 54.61 194.31 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid feca5726-550e-4d48-bf33-9f0cd50ac725)
-    (property "Reference" "R5" (at 54.61 191.77 90)
+    (property "Reference" "R4" (at 54.61 191.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 53.34 196.85 90)
@@ -10472,7 +10447,7 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -10537,7 +10512,7 @@
   (symbol (lib_id "power:+5V") (at 34.29 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff22f474-64d4-4265-9b67-a9928b66d665)
-    (property "Reference" "#PWR014" (at 34.29 86.36 0)
+    (property "Reference" "#PWR03" (at 34.29 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 34.29 79.0481 0)
@@ -10553,7 +10528,50 @@
     (instances
       (project "WordclockX"
         (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Pack08") (at 381 168.91 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ff826ab2-27c0-4e37-afa6-c8e8c4c9d66f)
+    (property "Reference" "RN6" (at 381 153.67 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "22R" (at 381 156.21 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602" (at 381 180.975 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 381 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser" "667-EXB-2HV220JV" (at 381 168.91 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 325cd34a-aa67-41f6-a082-93c00bd2f4e9))
+    (pin "10" (uuid 55b65fc2-c408-4476-b9c8-3e353bedfe43))
+    (pin "11" (uuid 1c86daff-89b0-4e1b-8b7f-4011261cbfe1))
+    (pin "12" (uuid 0a2e72b0-ab8b-4ea6-86ab-02f2b8029d2e))
+    (pin "13" (uuid 10677360-0bdd-4df2-9618-4e0246226c16))
+    (pin "14" (uuid 6290b921-2ae6-4a04-b988-469f78b40075))
+    (pin "15" (uuid ec39944f-d012-487b-98c5-cbd0799f30d8))
+    (pin "16" (uuid 47d8fa1d-d92a-4a05-b84f-d109a317aa63))
+    (pin "2" (uuid eac270dc-74b3-4f14-a954-dc97c2ce8762))
+    (pin "3" (uuid 85bc8085-c928-4cd8-830e-cb14bb1bde64))
+    (pin "4" (uuid 44429f1c-4832-4be3-ad14-db334443d95a))
+    (pin "5" (uuid 76bbad3a-beca-4111-b79a-e9b6ece235a6))
+    (pin "6" (uuid 240f6ea7-c847-42ca-b90e-6aac395d9225))
+    (pin "7" (uuid 5f8e792d-3839-4d19-be46-60275c960cce))
+    (pin "8" (uuid 6f9507ad-b488-4532-a360-ff8956b42640))
+    (pin "9" (uuid 31067ed5-bf13-40e0-840c-5567c2d023b2))
+    (instances
+      (project "WordclockX"
+        (path "/8cd55a18-23dc-4682-bd3c-80c7cacd7e8a"
+          (reference "RN6") (unit 1)
         )
       )
     )
