@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 # Set custom board file
 set(PICO_BOARD_HEADER_DIRS "${CMAKE_CURRENT_SOURCE_DIR}/board")
-set(PICO_BOARD power_ctrl_2023)
+set(PICO_BOARD wordclockx)
 
 # Import Pico SDK
 include(pico_sdk_import.cmake)
@@ -23,12 +23,13 @@ pico_sdk_init()
 # Add all source code files
 add_executable(WordclockX
     
-    system/main.c
+    main.c
+
+    hardware/hardware.c
+    
     system/led.c
     system/shell.c
     system/shell_commands.c
-
-    hardware/hardware.c
 )
 
 target_compile_definitions(WordclockX PRIVATE
@@ -56,7 +57,8 @@ target_link_libraries(WordclockX
 )
 
 # Enable a summary of used memory at the end of linking process
-target_link_options(WordclockX PUBLIC "-Wl,--print-memory-usage,--no-warn-rwx-segments")
+#target_link_options(WordclockX PUBLIC "-Wl,--print-memory-usage,--no-warn-rwx-segments")
+target_link_options(WordclockX PUBLIC "-Wl,--print-memory-usage")
 add_custom_command(TARGET WordclockX
     POST_BUILD
     COMMENT "Code size:"

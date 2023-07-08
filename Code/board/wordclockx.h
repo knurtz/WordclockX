@@ -19,19 +19,13 @@
 #define POWER_CTRL_2023
 
 // --- UART ---
-#define PICO_STDIO_DEFAULT_CRLF 0
-
-// no PICO_DEFAULT_LED_PIN ---
-
-// no PICO_DEFAULT_WS2812_PIN
-
-// no I2C, no SPI
+#define PICO_STDIO_DEFAULT_CRLF                 0
 
 // --- FLASH ---
-#define PICO_BOOT_STAGE2_CHOOSE_GENERIC_03H 1
+#define PICO_BOOT_STAGE2_CHOOSE_GENERIC_03H     1
 
 #ifndef PICO_FLASH_SIZE_BYTES
-#define PICO_FLASH_SIZE_BYTES (2 * 1024 * 1024)
+#define PICO_FLASH_SIZE_BYTES                   (2 * 1024 * 1024)
 #endif
 
 #endif /* POWER_CTRL_2023_H */

@@ -5,7 +5,6 @@
 #include "hardware/pwm.h"
 
 #include "hardware.h"
-#include "led.h"
 
 #define LED_DEFAULT_FPS  75
 
@@ -14,8 +13,8 @@ struct repeating_timer led_timer;
 
 static bool LED_Callback(struct repeating_timer *t)
 {    
-    if (frame_counter == 0) pwm_set_chan_level(LED_PWM_SLICE, LED_PWM_CHAN, 300);
-    if (frame_counter == 90) pwm_set_chan_level(LED_PWM_SLICE, LED_PWM_CHAN, 700);
+    if (frame_counter == 0) pwm_set_chan_level(pwm_gpio_to_slice_num(LED1), pwm_gpio_to_channel(LED1), 300);
+    if (frame_counter == 90) pwm_set_chan_level(pwm_gpio_to_slice_num(LED1), pwm_gpio_to_channel(LED1), 700);
 
     if (++frame_counter >= 100) frame_counter = 0;
 }

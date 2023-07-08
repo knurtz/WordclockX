@@ -1,11 +1,11 @@
-#include "shell.h"
-
-#include "shell_commands.h"
-
 #include <stdlib.h>
 #include <string.h>
+
+#include "pico/stdlib.h"
 #include "hardware/clocks.h"
 #include "pico/bootrom.h"
+
+#include "shell_commands.h"
 
 char rec_buffer[50];
 size_t buffer_len = 0;
@@ -43,7 +43,7 @@ static void Shell_ExecuteCommand(void)
 void Shell_Init(void)
 {
   Shell_ClearInputBuffer();
-  printf("\WordclockX> ");
+  printf("WordclockX> ");
 }
 
 // Check receive buffer for newline, indicating the end of a command
