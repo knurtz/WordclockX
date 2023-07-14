@@ -26,20 +26,23 @@ bool Hardware_Init(void)
     // Calling this function limits peripheral clocks to 48 MHz, since it automatically gets tied to PLL_USB
     //if (!set_sys_clock_khz(120000, false)) errors = true;
     
-    /*
-    // Init LED PWM
+    // Init LEDs PWM
     gpio_set_function(LED1, GPIO_FUNC_PWM);
+    gpio_set_function(LED2, GPIO_FUNC_PWM);
+    gpio_set_function(LED3, GPIO_FUNC_PWM);
+    gpio_set_function(LED4, GPIO_FUNC_PWM);
+
     pwm_config cfg = pwm_get_default_config();
     pwm_config_set_clkdiv_int(&cfg, 250);                           // 125 MHz system / 250 = 500 kHz / wrap @ 1000 = 500 Hz PWM
     pwm_config_set_wrap(&cfg, 1000);
-    pwm_init(pwm_gpio_to_slice_num(LED1), &cfg, true);
-    pwm_set_chan_level(pwm_gpio_to_slice_num(LED1), pwm_gpio_to_channel(LED1), 0);           // init at 0.0 % doodie cycle
-    */
 
-    Hardware_InitOutput(LED1, 0);
-    Hardware_InitOutput(LED2, 0);
-    Hardware_InitOutput(LED3, 0);
-    Hardware_InitOutput(LED4, 0);
+    pwm_init(pwm_gpio_to_slice_num(LED1), &cfg, true);
+    pwm_init(pwm_gpio_to_slice_num(LED3), &cfg, true);
+
+    pwm_set_chan_level(pwm_gpio_to_slice_num(LED1), pwm_gpio_to_channel(LED1), 0);           // init at 0.0 % doodie cycle
+    pwm_set_chan_level(pwm_gpio_to_slice_num(LED2), pwm_gpio_to_channel(LED2), 0);
+    pwm_set_chan_level(pwm_gpio_to_slice_num(LED3), pwm_gpio_to_channel(LED3), 0);
+    pwm_set_chan_level(pwm_gpio_to_slice_num(LED4), pwm_gpio_to_channel(LED4), 0);
   
     if (errors)
     {

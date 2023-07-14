@@ -26,8 +26,9 @@ add_executable(WordclockX
     main.c
 
     hardware/hardware.c
-    
-    system/led.c
+    hardware/led.c
+    hardware/led_matrix.c
+
     system/shell.c
     system/shell_commands.c
 )

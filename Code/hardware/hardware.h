@@ -12,6 +12,10 @@
 #define LED3                    12
 #define LED4                    13
 
+// I2C
+#define I2C_SDA                 4
+#define I2C_SCL                 5
+
 // Initializes all GPIOs
 bool Hardware_Init(void);
 
