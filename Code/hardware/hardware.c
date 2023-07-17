@@ -28,11 +28,6 @@ bool Hardware_Init(void)
     //if (!set_sys_clock_khz(120000, false)) errors = true;
     
     // Init LEDs PWM
-    gpio_set_function(LED1, GPIO_FUNC_PWM);
-    gpio_set_function(LED2, GPIO_FUNC_PWM);
-    gpio_set_function(LED3, GPIO_FUNC_PWM);
-    gpio_set_function(LED4, GPIO_FUNC_PWM);
-
     pwm_config cfg = pwm_get_default_config();
     pwm_config_set_clkdiv_int(&cfg, 250);                           // 125 MHz system / 250 = 500 kHz / wrap @ 1000 = 500 Hz PWM
     pwm_config_set_wrap(&cfg, 1000);
@@ -40,10 +35,11 @@ bool Hardware_Init(void)
     pwm_init(pwm_gpio_to_slice_num(LED1), &cfg, true);
     pwm_init(pwm_gpio_to_slice_num(LED3), &cfg, true);
 
-    pwm_set_chan_level(pwm_gpio_to_slice_num(LED1), pwm_gpio_to_channel(LED1), 0);           // init at 0.0 % doodie cycle
-    pwm_set_chan_level(pwm_gpio_to_slice_num(LED2), pwm_gpio_to_channel(LED2), 0);
-    pwm_set_chan_level(pwm_gpio_to_slice_num(LED3), pwm_gpio_to_channel(LED3), 0);
-    pwm_set_chan_level(pwm_gpio_to_slice_num(LED4), pwm_gpio_to_channel(LED4), 0);
+    for (uint led_i = LED1; led_i <= LED4; led_i++)
+    {
+        pwm_set_chan_level(pwm_gpio_to_slice_num(led_i), pwm_gpio_to_channel(led_i), 0);           // init at 0.0 % doodie cycle
+        gpio_set_function(led_i, GPIO_FUNC_PWM);
+    }
 
     // Init I2C    
     i2c_init(i2c0, 100000);
@@ -51,7 +47,14 @@ bool Hardware_Init(void)
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
     gpio_pull_up(I2C_SCL);
-  
+
+    // Init row selection shift reigster
+    Hardware_InitOutput(ROWSEL_EN, 0);
+    Hardware_InitOutput(ROWSEL_LATCH, 1);
+    Hardware_InitOutput(ROWSEL_A0, 0);
+    Hardware_InitOutput(ROWSEL_A1, 0);
+    Hardware_InitOutput(ROWSEL_A2, 0);
+      
     if (errors)
     {
         LED_SetFPS(500);

@@ -8,7 +8,7 @@
 #include "rtc.h"
 
 int main() {
-    stdio_init_all();
+    stdio_usb_init();
 
     Hardware_Init();
     Shell_Init();

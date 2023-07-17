@@ -16,6 +16,14 @@
 #define I2C_SDA                 4
 #define I2C_SCL                 5
 
+// Row selection
+#define ROWSEL_A0               19
+#define ROWSEL_A1               20
+#define ROWSEL_A2               21
+
+#define ROWSEL_LATCH            22
+#define ROWSEL_EN               18
+
 // Initializes all GPIOs
 bool Hardware_Init(void);
 
