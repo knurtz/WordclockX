@@ -1,5 +1,6 @@
 #include "hardware/pwm.h"
 #include "hardware/clocks.h"
+#include "hardware/i2c.h"
 
 #include "hardware.h"
 #include "led.h"
@@ -43,6 +44,13 @@ bool Hardware_Init(void)
     pwm_set_chan_level(pwm_gpio_to_slice_num(LED2), pwm_gpio_to_channel(LED2), 0);
     pwm_set_chan_level(pwm_gpio_to_slice_num(LED3), pwm_gpio_to_channel(LED3), 0);
     pwm_set_chan_level(pwm_gpio_to_slice_num(LED4), pwm_gpio_to_channel(LED4), 0);
+
+    // Init I2C    
+    i2c_init(i2c0, 100000);
+    gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
+    gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
+    gpio_pull_up(I2C_SDA);
+    gpio_pull_up(I2C_SCL);
   
     if (errors)
     {

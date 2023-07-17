@@ -1,9 +1,11 @@
 #include "pico/stdlib.h"
 
+#include "hardware/pwm.h"
+
 #include "hardware.h"
 #include "shell.h"
 #include "led.h"
-#include "hardware/pwm.h"
+#include "rtc.h"
 
 int main() {
     stdio_init_all();
@@ -12,6 +14,7 @@ int main() {
     Shell_Init();
 
     LED_Init();
+    if (!RTC_Init()) LED_SetFPS(200);
     
     while (1)
     {

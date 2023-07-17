@@ -21,13 +21,13 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
 # Add all source code files
-add_executable(WordclockX
-    
+add_executable(WordclockX    
     main.c
 
     hardware/hardware.c
     hardware/led.c
     hardware/led_matrix.c
+    hardware/rtc.c
 
     system/shell.c
     system/shell_commands.c

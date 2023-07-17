@@ -6,6 +6,7 @@
 #include "pico/bootrom.h"
 
 #include "shell_commands.h"
+#include "shell.h"
 
 char rec_buffer[50];
 size_t buffer_len = 0;
