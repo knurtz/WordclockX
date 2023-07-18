@@ -5,6 +5,7 @@
 #include "hardware.h"
 #include "shell.h"
 #include "led.h"
+#include "led_matrix.h"
 #include "rtc.h"
 
 int main() {
@@ -14,7 +15,10 @@ int main() {
     Shell_Init();
 
     LED_Init();
-    if (!RTC_Init()) LED_SetFPS(200);
+    RTC_Init();
+    LEDMatrix_Init();
+
+    LEDMatrix_SelectRow(1);
     
     while (1)
     {

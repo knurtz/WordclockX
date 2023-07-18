@@ -54,6 +54,10 @@ bool Hardware_Init(void)
     Hardware_InitOutput(ROWSEL_A0, 0);
     Hardware_InitOutput(ROWSEL_A1, 0);
     Hardware_InitOutput(ROWSEL_A2, 0);
+
+    // Init driver enable lines
+    Hardware_InitOutput(DRIVER1_NOE, 1);
+    Hardware_InitOutput(DRIVER2_NOE, 1);
       
     if (errors)
     {

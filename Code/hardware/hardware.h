@@ -24,6 +24,10 @@
 #define ROWSEL_LATCH            22
 #define ROWSEL_EN               18
 
+// Column selection
+#define DRIVER1_NOE              2
+#define DRIVER2_NOE              3
+
 // Initializes all GPIOs
 bool Hardware_Init(void);
 

@@ -9,9 +9,10 @@
 #include "shell_commands.h"
 #include "hardware.h"
 #include "rtc.h"
+#include "led_matrix.h"
 
 // Numbers extracted from argument string
-uint number_parameters[4];
+uint par[4];
 // Extracts up to 4 numbers from argument string. Returns amount of numbers extracted.
 static size_t ExtractParameters(char* args)
 {
@@ -19,7 +20,7 @@ static size_t ExtractParameters(char* args)
     char* endstr = args;
     for (i = 0; i < 4 && *endstr; i++)
     {
-        number_parameters[i] = strtol(endstr, &endstr, 0);
+        par[i] = strtol(endstr, &endstr, 0);
     }
 
     return i;
@@ -41,7 +42,7 @@ static void clocks_cb(int arglen, char* argv)
 static void test_cb(int arglen, char* argv)
 {
     printf("arglen: %d, argv: %s\n", arglen, argv);
-    printf("Extracted %d numbers: 0x%x 0x%x 0x%x 0x%x\n\n", ExtractParameters(argv), number_parameters[0], number_parameters[1], number_parameters[2], number_parameters[3]);
+    printf("Extracted %d numbers: 0x%x 0x%x 0x%x 0x%x\n\n", ExtractParameters(argv), par[0], par[1], par[2], par[3]);
 }
 
 // UF2 command
@@ -87,8 +88,8 @@ static void i2c_read_cb(int arglen, char* argv)
     }
 
     // Write register address to slave
-    uint8_t addr =  number_parameters[0];
-    uint8_t reg = number_parameters[1];
+    uint8_t addr =  par[0];
+    uint8_t reg = par[1];
     bool error = false;
     if (i2c_write_blocking(i2c0, addr, &reg, 1, true) < 0) error = true;
     // Read from slave
@@ -109,8 +110,8 @@ static void i2c_write_cb(int arglen, char* argv)
         return;
     }
 
-    uint8_t addr =  number_parameters[0];
-    uint8_t reg_val[2] = {number_parameters[1], number_parameters[2]};
+    uint8_t addr =  par[0];
+    uint8_t reg_val[2] = {par[1], par[2]};
     bool error = false;
     if (i2c_write_blocking(i2c0, addr, reg_val, 2, false) < 0) error = true;
 
@@ -128,7 +129,7 @@ static void rtc_set_cb(int arglen, char* argv)
         return;
     }
     char time_str[9];
-    Time t = {number_parameters[0], number_parameters[1], number_parameters[2]};
+    Time t = {par[0], par[1], par[2]};
     RTC_PrintTime(&t, time_str, 9);
 
     if (RTC_SetTime(t)) printf("Successfully set time to %s\n\n", time_str);
@@ -162,6 +163,30 @@ static void rtc_pwrfail_cb(int arglen, char* argv)
     else printf("Failed to get pd / pu times\n\n");
 }
 
+static void set_row_cb(int arglen, char* argv)
+{
+    // Arguments: set row <row_num>
+    size_t num = ExtractParameters(argv);
+    if (num < 1)
+    {
+        LEDMatrix_DeselectRow();
+        return;
+    }
+    LEDMatrix_SelectRow(par[0]);
+}
+
+static void set_col_cb(int arglen, char* argv)
+{
+    // Arguments: set col <col_num> <r> <g> <b>
+    size_t num = ExtractParameters(argv);
+    if (num < 4)
+    {
+        printf("Missing parameters\n\n");
+        return;
+    }
+    LEDMatrix_SelectCol(par[0], par[1], par[2], par[3]);
+}
+
 // Assemble complete command set into a single array
 ShellCommand command_set[] = {
     {"echo", echo_cb},
@@ -173,7 +198,9 @@ ShellCommand command_set[] = {
     {"i2c write", i2c_write_cb},
     {"rtc set", rtc_set_cb},
     {"rtc get", rtc_get_cb},
-    {"rtc pwrfail", rtc_pwrfail_cb}
+    {"rtc pwrfail", rtc_pwrfail_cb},
+    {"set row", set_row_cb},
+    {"set col", set_col_cb}
 };
 
 size_t command_cnt = count_of(command_set);
