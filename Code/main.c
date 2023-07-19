@@ -8,6 +8,8 @@
 #include "led_matrix.h"
 #include "rtc.h"
 
+uint main_delay = 1000;
+
 int main() {
     stdio_usb_init();
 
@@ -17,12 +19,13 @@ int main() {
     LED_Init();
     RTC_Init();
     LEDMatrix_Init();
-
-    LEDMatrix_SelectRow(1);
     
     while (1)
     {
         Shell_CheckCommand();
+
+        LEDMatrix_ShowNextRow();
+        sleep_ms(main_delay);
     }
 
 }

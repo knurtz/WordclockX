@@ -163,28 +163,27 @@ static void rtc_pwrfail_cb(int arglen, char* argv)
     else printf("Failed to get pd / pu times\n\n");
 }
 
-static void set_row_cb(int arglen, char* argv)
+static void pixel_cb(int arglen, char* argv)
 {
-    // Arguments: set row <row_num>
-    size_t num = ExtractParameters(argv);
-    if (num < 1)
-    {
-        LEDMatrix_DeselectRow();
-        return;
-    }
-    LEDMatrix_SelectRow(par[0]);
-}
-
-static void set_col_cb(int arglen, char* argv)
-{
-    // Arguments: set col <col_num> <r> <g> <b>
-    size_t num = ExtractParameters(argv);
-    if (num < 4)
+    // Arguments: pixel <row> <col> <r> <g> <b>
+    if (ExtractParameters(argv) < 5)
     {
         printf("Missing parameters\n\n");
         return;
     }
-    LEDMatrix_SelectCol(par[0], par[1], par[2], par[3]);
+    LEDMatrix_PutPixel(par[0], par[1], par[2], par[3], par[4]);
+}
+
+static void speed_cb(int arglen, char* argv)
+{
+    // Arguments: pixel <row> <col> <r> <g> <b>
+    if (ExtractParameters(argv) < 1)
+    {
+        printf("Missing parameters\n\n");
+        return;
+    }
+    extern uint main_delay;
+    main_delay = par[0];
 }
 
 // Assemble complete command set into a single array
@@ -199,8 +198,8 @@ ShellCommand command_set[] = {
     {"rtc set", rtc_set_cb},
     {"rtc get", rtc_get_cb},
     {"rtc pwrfail", rtc_pwrfail_cb},
-    {"set row", set_row_cb},
-    {"set col", set_col_cb}
+    {"pixel", pixel_cb},
+    {"speed", speed_cb}
 };
 
 size_t command_cnt = count_of(command_set);
