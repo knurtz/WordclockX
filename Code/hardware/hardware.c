@@ -42,7 +42,7 @@ bool Hardware_Init(void)
     }
 
     // Init I2C    
-    i2c_init(i2c0, 100000);
+    i2c_init(i2c0, 400000);
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
