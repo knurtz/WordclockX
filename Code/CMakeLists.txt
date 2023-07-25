@@ -31,6 +31,8 @@ add_executable(WordclockX
 
     system/shell.c
     system/shell_commands.c
+
+    system/fast_hsv2rgb.c
 )
 
 target_compile_definitions(WordclockX PRIVATE

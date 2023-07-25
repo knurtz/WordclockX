@@ -12,13 +12,13 @@
 #include "led_matrix.h"
 
 // Numbers extracted from argument string
-uint par[4];
-// Extracts up to 4 numbers from argument string. Returns amount of numbers extracted.
+uint par[5];
+// Extracts numbers from argument string. Returns amount of numbers extracted.
 static size_t ExtractParameters(char* args)
 {
     size_t i;
     char* endstr = args;
-    for (i = 0; i < 4 && *endstr; i++)
+    for (i = 0; i < count_of(par) && *endstr; i++)
     {
         par[i] = strtol(endstr, &endstr, 0);
     }
