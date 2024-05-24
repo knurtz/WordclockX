@@ -31,6 +31,7 @@ add_executable(WordclockX
 
     system/shell.c
     system/shell_commands.c
+    system/clock.c
 
     system/fast_hsv2rgb.c
 )
